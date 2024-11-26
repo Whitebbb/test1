@@ -1,3 +1,4 @@
+# 1 文献阅读与知识准备
 ## 1.1 Spike-driven Transformer的特点
 - 事件驱动：当Transformer的输入为零时，不触发计算。
 - 二进制脉冲通信：所有与脉冲矩阵相关的矩阵乘法可以转化为稀疏加法。
@@ -10,9 +11,10 @@
 -   重新设计了Transformer中的残差连接，确保所有神经元通过二进制脉冲信号进行通信。
 -   在静态和神经形态数据集上进行了广泛的实验，证明了所提出架构的有效性和效率。
 
-# 2 实验
+# 2 实验记录
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDIyNjg1MjI5LC0xODA5ODQ3MDQ0LDc5Mz
-AzOTI1MywyMDcwNjAzMjZdfQ==
+eyJoaXN0b3J5IjpbLTI0NzkxMzAzMSwtMTgwOTg0NzA0NCw3OT
+MwMzkyNTMsMjA3MDYwMzI2XX0=
 -->

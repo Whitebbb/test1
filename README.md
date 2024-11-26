@@ -19,7 +19,7 @@ Spike-driven Transformer的概览，它包括四个部分：
 3. 多层感知器（Multi-Layer Perceptron, MLP）
 4. 线性分类（Classification Head）
 ### 1.2.3 Spike-Driven Self-Attention (SDSA)
-
+SDSA利用掩码（mask）和稀疏加法操作来替代传统的矩阵乘法，从而在计算过程中几乎不消耗能量。这种方法特别适合于脉冲神经网络，因为它们在通信时只使用二进制脉冲（0或1）。
 
 
 
@@ -28,7 +28,7 @@ Spike-driven Transformer的概览，它包括四个部分：
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjg0MTU4OTU2LC03MzgzNDI5MzUsMTIxNj
-Q2OTEwNywtMTUyNDEyNzcxLC0yNDc5MTMwMzEsLTE4MDk4NDcw
-NDQsNzkzMDM5MjUzLDIwNzA2MDMyNl19
+eyJoaXN0b3J5IjpbMTk2NjA4OTAwNiwyODQxNTg5NTYsLTczOD
+M0MjkzNSwxMjE2NDY5MTA3LC0xNTI0MTI3NzEsLTI0NzkxMzAz
+MSwtMTgwOTg0NzA0NCw3OTMwMzkyNTMsMjA3MDYwMzI2XX0=
 -->

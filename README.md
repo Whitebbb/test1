@@ -19,7 +19,10 @@ Spike-driven Transformer的概览，它包括四个部分：
 3. 多层感知器（Multi-Layer Perceptron, MLP）
 4. 线性分类（Classification Head）
 ### 1.2.3 Spike-Driven Self-Attention (SDSA)
-SDSA利用掩码（mask）和稀疏加法操作来替代传统的矩阵乘法，从而在计算过程中几乎不消耗能量。这种方法特别适合于脉冲神经网络，因为它们在通信时只使用二进制脉冲（0或1）。
+**SDSA**利用掩码（mask）和稀疏加法操作来替代传统的矩阵乘法，从而在计算过程中几乎不消耗能量。这种方法特别适合于脉冲神经网络，因为它们在通信时只使用二进制脉冲（0或1）。
+1.  **SDSA-V1**：在这个版本中，查询（Query, Q）和键（Key, K）首先执行元素级别的掩码操作，即哈达玛积（Hadamard product）。然后，通过列求和和脉冲神经元层来获得二进制的注意力向量，最后将这个二进制的注意力向量应用于值（Value, V）以掩码一些通道（特征）。
+    
+2.  ** SDSA-V2**：这个版本揭示了SDSA是一种特殊类型的线性注意力机制，其中脉冲神经元层作为核函数。这种设计使得SDSA在token和通道维度上都具有线性的时间复杂度。
 
 
 
@@ -28,7 +31,7 @@ SDSA利用掩码（mask）和稀疏加法操作来替代传统的矩阵乘法，
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2NjA4OTAwNiwyODQxNTg5NTYsLTczOD
+eyJoaXN0b3J5IjpbMTE0MTQ1MTAyNCwyODQxNTg5NTYsLTczOD
 M0MjkzNSwxMjE2NDY5MTA3LC0xNTI0MTI3NzEsLTI0NzkxMzAz
 MSwtMTgwOTg0NzA0NCw3OTMwMzkyNTMsMjA3MDYwMzI2XX0=
 -->

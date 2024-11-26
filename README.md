@@ -13,6 +13,7 @@
 - 操作：spike-form的Query、Key和Value之间的操作是掩码和加法。
 
 ### 1.2.2 Overall Architecture
+Spike-driven Transformer的概览，它包括四个部分：脉冲驱动编码器（SPSpike Patch Splitting, SPS）、Spike-Driven Self-Attention (SDSA)、多层感知器（Multi-Layer Perceptron, MLP）以及一个线性分类头部（Classification Head）
 ### 1.2.3 Spike-Driven Self-Attention (SDSA)
 
 
@@ -22,7 +23,7 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczODM0MjkzNSwxMjE2NDY5MTA3LC0xNT
-I0MTI3NzEsLTI0NzkxMzAzMSwtMTgwOTg0NzA0NCw3OTMwMzky
-NTMsMjA3MDYwMzI2XX0=
+eyJoaXN0b3J5IjpbLTI3OTQ2NjE3LC03MzgzNDI5MzUsMTIxNj
+Q2OTEwNywtMTUyNDEyNzcxLC0yNDc5MTMwMzEsLTE4MDk4NDcw
+NDQsNzkzMDM5MjUzLDIwNzA2MDMyNl19
 -->

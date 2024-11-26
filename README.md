@@ -9,7 +9,10 @@
 - 设计了一种Spike-Driven Self-Attention (SDSA)，它只使用掩码和加法操作，没有乘法，从而比传统的自注意力机制有高达87.2倍的计算能效降低。
 -   重新设计了Transformer中的残差连接，确保所有神经元通过二进制脉冲信号进行通信。
 -   在静态和神经形态数据集上进行了广泛的实验，证明了所提出架构的有效性和效率。
+
+# 2 实验
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDk4NDcwNDQsNzkzMDM5MjUzLDIwNz
-A2MDMyNl19
+eyJoaXN0b3J5IjpbNDIyNjg1MjI5LC0xODA5ODQ3MDQ0LDc5Mz
+AzOTI1MywyMDcwNjAzMjZdfQ==
 -->

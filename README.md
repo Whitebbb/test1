@@ -1,5 +1,6 @@
 # 1 文献阅读与知识准备
-## 1.1 Spike-driven Transformer的特点
+
+### 1.1.1  Spike-driven Transformer的特性
 - 事件驱动：当Transformer的输入为零时，不触发计算。
 - 二进制脉冲通信：所有与脉冲矩阵相关的矩阵乘法可以转化为稀疏加法。
 - 自注意力具有线性复杂度：在token和通道维度上都具有线性复杂度。
@@ -15,6 +16,6 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0NzkxMzAzMSwtMTgwOTg0NzA0NCw3OT
-MwMzkyNTMsMjA3MDYwMzI2XX0=
+eyJoaXN0b3J5IjpbLTQ2MTgyMDEyMSwtMjQ3OTEzMDMxLC0xOD
+A5ODQ3MDQ0LDc5MzAzOTI1MywyMDcwNjAzMjZdfQ==
 -->

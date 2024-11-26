@@ -1,4 +1,5 @@
 # 1 文献阅读与知识准备
+## 1.1Spike-driven Transformer
 
 ### 1.1.1  Spike-driven Transformer的特性
 - 事件驱动：当Transformer的输入为零时，不触发计算。
@@ -16,6 +17,6 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2MTgyMDEyMSwtMjQ3OTEzMDMxLC0xOD
+eyJoaXN0b3J5IjpbLTE1MjQxMjc3MSwtMjQ3OTEzMDMxLC0xOD
 A5ODQ3MDQ0LDc5MzAzOTI1MywyMDcwNjAzMjZdfQ==
 -->

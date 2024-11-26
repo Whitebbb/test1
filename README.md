@@ -24,11 +24,11 @@ Spike-driven Transformer的概览，它包括四个部分：
 
 
 # 2 实验记录
-## 2.1 数据集
+## 2.1 数据准备
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwNzk1NzY1NywtNzM4MzQyOTM1LDEyMT
-Y0NjkxMDcsLTE1MjQxMjc3MSwtMjQ3OTEzMDMxLC0xODA5ODQ3
-MDQ0LDc5MzAzOTI1MywyMDcwNjAzMjZdfQ==
+eyJoaXN0b3J5IjpbMjg0MTU4OTU2LC03MzgzNDI5MzUsMTIxNj
+Q2OTEwNywtMTUyNDEyNzcxLC0yNDc5MTMwMzEsLTE4MDk4NDcw
+NDQsNzkzMDM5MjUzLDIwNzA2MDMyNl19
 -->

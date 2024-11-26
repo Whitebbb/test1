@@ -1,4 +1,5 @@
 # 1 文献阅读与知识准备
+
 ## 1.1 文献主要内容
 - 提出了一种新型的Spike-driven Transformer，它只利用稀疏加法，首次将spike-driven范式整合到Transformer中，并且对神经形态芯片友好。
 - 设计了一种Spike-Driven Self-Attention (SDSA)，它只使用掩码和加法操作，没有乘法，从而比传统的自注意力机制有高达87.2倍的计算能效降低。
@@ -12,6 +13,7 @@
 - 操作：spike-form的Query、Key和Value之间的操作是掩码和加法。
 
 ### 1.2.2 Overall Architecture
+### 1.2.3 Spike-Driven Self-Attention (SDSA)
 
 
 
@@ -20,7 +22,7 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxNjQ2OTEwNywtMTUyNDEyNzcxLC0yND
-c5MTMwMzEsLTE4MDk4NDcwNDQsNzkzMDM5MjUzLDIwNzA2MDMy
-Nl19
+eyJoaXN0b3J5IjpbLTE0MDg4NTE2ODAsMTIxNjQ2OTEwNywtMT
+UyNDEyNzcxLC0yNDc5MTMwMzEsLTE4MDk4NDcwNDQsNzkzMDM5
+MjUzLDIwNzA2MDMyNl19
 -->

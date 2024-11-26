@@ -11,6 +11,8 @@
 - 自注意力具有线性复杂度：在token和通道维度上都具有线性复杂度。
 - 操作：spike-form的Query、Key和Value之间的操作是掩码和加法。
 
+### 1.2.2 Overall Architecture
+
 
 
 
@@ -18,7 +20,7 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDc1MjA3MjAxLC0xNTI0MTI3NzEsLTI0Nz
-kxMzAzMSwtMTgwOTg0NzA0NCw3OTMwMzkyNTMsMjA3MDYwMzI2
-XX0=
+eyJoaXN0b3J5IjpbMTIxNjQ2OTEwNywtMTUyNDEyNzcxLC0yND
+c5MTMwMzEsLTE4MDk4NDcwNDQsNzkzMDM5MjUzLDIwNzA2MDMy
+Nl19
 -->

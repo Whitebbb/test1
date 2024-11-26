@@ -1,5 +1,5 @@
 # 1 文献阅读与知识准备
-
+[参考文献链接](https://github.com/BrainCog-X/Brain-Cog)
 ## 1.1 文献主要内容
 - 提出了一种新型的Spike-driven Transformer，它只利用稀疏加法，首次将spike-driven范式整合到Transformer中，并且对神经形态芯片友好。
 - 设计了一种Spike-Driven Self-Attention (SDSA)，它只使用掩码和加法操作，没有乘法，从而比传统的自注意力机制有高达87.2倍的计算能效降低。
@@ -22,7 +22,7 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDg4NTE2ODAsMTIxNjQ2OTEwNywtMT
-UyNDEyNzcxLC0yNDc5MTMwMzEsLTE4MDk4NDcwNDQsNzkzMDM5
-MjUzLDIwNzA2MDMyNl19
+eyJoaXN0b3J5IjpbMTY1NjY4ODc5MywxMjE2NDY5MTA3LC0xNT
+I0MTI3NzEsLTI0NzkxMzAzMSwtMTgwOTg0NzA0NCw3OTMwMzky
+NTMsMjA3MDYwMzI2XX0=
 -->
